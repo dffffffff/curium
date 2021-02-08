@@ -267,7 +267,7 @@ If you are following the **FORK** path, keep in mind that you must ensure your n
     blzcli keys add vuser --recover
     ```
 
-    Provide the menemonic generated above from the web staking wallet when asked for the BIP39 mnemonic, when prompted for a keyring password, provide  a password  
+    Provide the menemonic generated above from the web staking wallet when asked for the BIP39 mnemonic, when prompted for a keyring password, provide a password  
     to encrypt the keyring that holds the private key. You will be asked for this password in the future when signing with your private key. 
         
     v) Convert the desired amount of BLZ tokens to BNT tokens by using the "Convert to BNT" button. Please be patient, as we run the conversion relayer manually for now, and it runs a few times every day. Please join and follow our Telegram and Discord groups to keep updated.
@@ -319,7 +319,7 @@ If you are following the **FORK** path, keep in mind that you must ensure your n
     blzcli keys import vuser export.txt
     ```
     
-    Enter a password to encrypt the keys to vuser
+    Enter a password to encrypt the keyring
     
     Notes:
     
@@ -330,7 +330,7 @@ If you are following the **FORK** path, keep in mind that you must ensure your n
     ```
     
     Paste in the mnemonic, when asked.
-    Enter a password to encrypt the keys to vuser
+    Enter a password to encrypt the keyring
     
     ii. If your vuser for your original vuser is secured with a Ledger device, add it to the new validator machine as follows (ensure your Ledger device is plugged in and running the COSMOS app):
     

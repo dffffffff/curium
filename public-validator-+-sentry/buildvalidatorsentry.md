@@ -167,7 +167,7 @@ If you are following the **FORK** path, keep in mind that you must ensure your n
 
     ```
     # Maximum pause when redialing a persistent peer (if zero, exponential backoff is used)
-    persistent_peers_max_dial_period = "1s"
+    persistent_peers_max_dial_period = 1s
     ```
 
 17. Edit ".blzd/config/app.toml" to set the minimum-gas-prices to “0.002ubnt”
